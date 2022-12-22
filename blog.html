@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Advaced-E-commerece.css">
+</head>
+<body>
+    <nav class="nav nav_tab">
+        <div class="logo">
+            <a href="index.html"><img src="https://www.1stop.ai/images/1Stop_logo_New_Png.png" alt="1stop.ai" style="width: 150px;"></a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login/ Register</a>
+        </div>
+
+
+
+        <input type="checkbox" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner top"></div>
+            <div class="spinner middle"></div>
+            <div class="spinner bottom"></div>
+        </label>
+        <div id="sidebarMenu">
+            <ul class="menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+
+
+<div class="blog_page">
+<div class="parent1">
+    <div class="one">
+    <h3> Blog 1</h3>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sapiente enim in ducimus sequi at quasi expedita accusamus aperiam libero?</span><br>
+    <button type="submit"> Visit Blog</button>
+    </div>
+
+    <div class="child12">
+        <img src="https://images.unsplash.com/photo-1664369058082-ee8e36028106?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Image1">
+
+    </div>
+</div>
+
+<div class="parent3">
+    <div class="child31">
+        <img src="https://images.unsplash.com/photo-1664369058082-ee8e36028106?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Image1">
+
+    </div>
+    <div class="child32">
+    <h3> Blog 1</h3>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sapiente enim in ducimus sequi at quasi expedita accusamus aperiam libero?</span><br>
+    <button type="submit"> Visit Blog</button>
+
+    </div>
+
+   
+</div>
+
+<div class="parent2">
+    <div class="child21">
+        <h3>Blog 2</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis eum praesentium magnam animi, ipsa consectetur qui itaque quia rerum ullam voluptatem corporis fugiat necessitatibus ducimus id amet aperiam maxime.</span><br>
+    <button type="submit"> Visit Blog</button>
+
+</div>
+
+    <div class="child22">
+        <img src="https://cdn.pixabay.com/photo/2021/12/14/15/37/christmas-tree-6870755_1280.jpg" alt="image2">
+</div>
+</div>
+
+<div class="parent3">
+    <div class="child31">
+        <img src="https://images.unsplash.com/photo-1664369058082-ee8e36028106?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Image1">
+    </div>
+    <div class="child32">
+    <h3> Blog 1</h3>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sapiente enim in ducimus sequi at quasi expedita accusamus aperiam libero?</span><br>
+    <button type="submit"> Visit Blog</button>
+
+    </div>
+  
+</div>
+
+</div>
+ 
+<!-- -------------------Feedback form-------------- -->
+<center>
+    <div class="first">
+    <form name="google-sheet-1" action="" class="frm" onclick=" return validation()">
+        <h3>Feedback form</h3> <br><br>
+        <input type="text"  id="username" placeholder="Name"  class="nam" name="NAME"> <br> <br>
+        <span id="errorusername" style="color:red;"></span> <br>
+        <input type="email" id="email" placeholder="Email" class="mail" name="EMAIL"> <br> <br>
+        <span id="erroremail" style="color:red;"></span> <br>
+        <input type="text" id="number" placeholder="Number" class="num" name="NUMBER"> <br><br>
+        <span id="errornumber" style="color:red;"></span> <br>
+        <!-- <input type="text" placeholder="Leave a message" class="msg" name="TEXT"> <br> <br> -->
+         <textarea name="TEXT" id="" cols="30" rows="8" class="msg" placeholder="Write your feedback here"></textarea> <br> <br>
+         <button type="submit" class="sub">submit</button>
+    </form>
+  </div>
+</center>
+
+
+<script>
+    const scriptURL =
+        " https://script.google.com/macros/s/AKfycbxU5yoBxWTmPNpc9K5aIu0qR8YeTgqLQRoU5DeP-dEENh8BcpOUaj_N8RVF2ViIGXXo/exec"
+    const form = document.forms['google-sheet-1']
+ 
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => alert(
+                "Thanks for you valuable feedback!!!"))
+            .catch(error => console.error('Error!', error.message))
+    })
+ 
+ </script>
+ 
+ <!-- https://script.google.com/macros/s/AKfycbxU5yoBxWTmPNpc9K5aIu0qR8YeTgqLQRoU5DeP-dEENh8BcpOUaj_N8RVF2ViIGXXo/exec -->
+<script>
+    function validation(){
+    var nam= document.getElementById('username').value;
+    var email=document.getElementById('email').value;
+    var num=document.getElementById('number').value;
+
+    var usercheck  = /^[A-Za-z]{3,20}$/;
+    var emailcheck = /^[A-Za-z_0-9.]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+    var numberchek= /^[6789][0-9]{9}$/;
+
+    if(usercheck.test(nam))
+    {
+        document.getElementById('errorusername').innerHTML=""; 
+    }
+    else{
+        document.getElementById('errorusername').innerHTML="Invalid Name";
+        return false;
+    }
+    if(emailcheck.test(email))
+    {
+        document.getElementById('erroremail').innerHTML=""; 
+    }
+    else{
+        document.getElementById('erroremail').innerHTML="Invalid Email";
+        return false;
+    }
+    if(numberchek.test(num))
+    {
+        document.getElementById('errornumber').innerHTML=""; 
+    }
+    else{
+        document.getElementById('errornumber').innerHTML="Invalid Number";
+        return false;
+    }
+
+} 
+</script>
+    <footer>
+        <div class="footer_logo">
+           <center><img src="https://www.1stop.ai/images/1Stop_logo_New_Png.png" alt="" width="200"></center> 
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+            <a href="about.html">About Us</a>|
+            <a href="service.html">Services</a>|
+            <a href="blog.html">Blogs</a>|
+            <a href="login.html">Login</a>|
+            <a href="login.html">sign up</a>
+        </div>
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href="">Privacy policy</a>|
+            <a href="">Terms of use</a>|
+            <a href="">Refund policy</a>
+        </div>
+        <div class="social">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/people/1Stopai/100063830183617/" target="_blank"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.linkedin.com/company/1stop-ai/?originalSubdomain=tr" target="_blank"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.instagram.com/1stop.ai/"  target="_blank"><i class="ri-instagram-line"></i></a>
+            <!-- <a href=""><i class="ri-twitter-fill"></i></a> -->
+        </div>
+        <div class="contactus">
+            <h3>Contact Us</h3>
+            <a href="https:// api.whatsapp.com/send?phone: 6301178561 "><i class="ri-whatsapp-line"></i></a>
+            <a href="tel: +916301178561"><i class="ri-phone-line"></i></a>
+            <a href="mailto: support@1stop.ai"><i class="ri-mail-line"></i></a>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2022 1Stop All rights are reserved</p>
+    </footer>
+    
+         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script> 
+         <!-- Latest compiled and minified JavaScript -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
